@@ -1,0 +1,36 @@
+{
+  "name": "react-use-php",
+  "version": "1.0.0",
+  "description": "Use PHP in your server side react components",
+  "main": "this field is so weird",
+  "scripts": {
+    "start": "npm run build && node server.js",
+    "build": "node build.js",
+    "clean": "rm -r dist",
+    "test": "true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/memegento/react-use-php.git"
+  },
+  "keywords": [
+    "React",
+    "Typescript",
+    "Bun",
+    "PHP"
+  ],
+  "author": "Memegento",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/memegento/react-use-php/issues"
+  },
+  "homepage": "https://github.com/memegento/react-use-php#readme",
+  "devDependencies": {
+    "esbuild": "0.19.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
